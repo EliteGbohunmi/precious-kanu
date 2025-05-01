@@ -774,6 +774,11 @@ border-radius: 100vw 0 0 100vw ;
   padding: 0;
   width: 100%;
  }
+.abt .about_img{
+    height: 300px;
+    width: 300px;
+}
+  
 .toos{
     grid-template-columns: 1fr 1fr;
 }
