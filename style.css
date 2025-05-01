@@ -2,8 +2,8 @@
 justify-content:right;
   padding:2rem 0;
 }
-.project-card{
-padding:0 1rem;
+.projects .project-card{
+padding:0 2rem;
 }
 .ham a{
 color:gold;
