@@ -143,7 +143,7 @@ right:0;
 .hero-cont{
   display: grid;
   grid-template-columns: 1fr 1fr;
-padding: 0 20px;
+padding: 0 90px;
   margin-top: -3%;
   position: relative;
   height: max-content;
@@ -770,6 +770,7 @@ border-radius: 100vw 0 0 100vw ;
  .hero-cont{
   grid-template-columns: 1fr;
   padding: 0 20px;
+   margin-top:-20%;
  }
  .hero-cont .first_side{
   order: 2;
