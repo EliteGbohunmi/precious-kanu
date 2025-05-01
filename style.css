@@ -60,7 +60,6 @@ body{
       overflow-x: hidden;
       position: relative;
       background-repeat: repeat-y;
-  width:100%;
 }
 html{
         scroll-behavior: smooth;
@@ -79,7 +78,8 @@ margin: 2px 0;
 background-color: rgba(0, 0, 0, 0.2);
 backdrop-filter: blur(20px);
 -webkit-backdrop-filter: blur(20px);
-width:100%;
+padding: sticky;
+top: 0;
 }
 nav ul{
   display: flex;
@@ -130,7 +130,7 @@ nav .logo{
   transform: translateY(-10px) rotate(-45deg);
 }
 .yh{
-left:calc(100% - 50%);
+right:0;
 }
 .ham{
   display: flex;
@@ -726,21 +726,21 @@ background-color: white;
  ul{
   flex-direction: column;
   position: fixed;
-  left:100%;
- width: 50%;
+  right: 100%;
+ width: 100%;
 align-items: flex-start;
  padding: 30px 0;
  transition: all 400ms ease;
- top: 50px;
+ top: 65px;
  z-index: 999;
- height: 90vh;
+ height: 100vh;
  background-color:rgba(0, 0, 0, 0.9);
  backdrop-filter: 90px;
  border-radius:10px ;
  gap: 2rem;
  }
  nav ul li{
-padding: 10px 40px;
+padding: 10px 20px;
 width: 100%;
 cursor: pointer;
  }
@@ -775,12 +775,6 @@ border-radius: 100vw 0 0 100vw ;
   padding: 0;
   width: 100%;
  }
-.abt .about_img{
-    height: 100%;
-    width: 100%;
-  margin:0 auto;
-}
-  
 .toos{
     grid-template-columns: 1fr 1fr;
 }
