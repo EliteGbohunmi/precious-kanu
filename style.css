@@ -203,6 +203,7 @@ line-height: 1.3;
 }
 .hero-cont .second_side{
     height: 500px;
+  padding:0 -50px;
 }
 .about{
 position: relative;
