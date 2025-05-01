@@ -79,7 +79,7 @@ margin: 2px 0;
 background-color: rgba(0, 0, 0, 0.2);
 backdrop-filter: blur(20px);
 -webkit-backdrop-filter: blur(20px);
-
+width:100%;
 }
 nav ul{
   display: flex;
@@ -130,7 +130,7 @@ nav .logo{
   transform: translateY(-10px) rotate(-45deg);
 }
 .yh{
-transform:translate-X(calc(100%-50%));
+left:calc(100% - 50%);
 }
 .ham{
   display: flex;
@@ -726,7 +726,7 @@ background-color: white;
  ul{
   flex-direction: column;
   position: fixed;
-  transform:translate-x(100%);
+  left:100%;
  width: 50%;
 align-items: flex-start;
  padding: 30px 0;
