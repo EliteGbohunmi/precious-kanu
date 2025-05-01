@@ -785,4 +785,9 @@ border-radius: 100vw 0 0 100vw ;
 .contact-section{
     grid-template-columns: 1fr;
 }
+  .abt .about_img{
+    height: 100%;
+    width: 100%;
+    margin:0 auto;
+}
 }
