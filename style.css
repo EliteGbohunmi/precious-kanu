@@ -137,6 +137,9 @@ right:0;
   gap: 1rem;
   align-items: center;
 }
+.heros{
+  padding: 2rem 0;
+}
 .hero-cont{
   display: grid;
   grid-template-columns: 1fr 1fr;
