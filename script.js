@@ -2,7 +2,7 @@
 
 
 var typed = new Typed("#element", {
-  strings: ["product-manager", "AI Enthusiast", "Statisticiain"],
+  strings: ["Product Manager", "AI Enthusiast", "Statistician"],
   typeSpeed: 150,
   backSpeed: 100,
   backDelay: 1000,
