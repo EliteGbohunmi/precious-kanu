@@ -1,3 +1,8 @@
+.project-card .btn{
+justify-content:left;
+  padding:1rem 0;
+}
+
 .ham a{
 color:gold;
 font-size:30px;
