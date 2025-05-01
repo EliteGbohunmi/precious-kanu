@@ -2,7 +2,9 @@
 justify-content:right;
   padding:2rem 0;
 }
-
+.project-card{
+padding:0 1rem;
+}
 .ham a{
 color:gold;
 font-size:30px;
