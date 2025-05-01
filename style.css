@@ -140,7 +140,7 @@ right:0;
 .hero-cont{
   display: grid;
   grid-template-columns: 1fr 1fr;
-padding: 0 90px;
+padding: 0 20px;
   margin-top: -3%;
   position: relative;
   height: max-content;
@@ -298,7 +298,7 @@ border-radius: 10px;
 }
 .vb{
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     color: #fff;
     width: max-content;
     margin: 0 auto;
